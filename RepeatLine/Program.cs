@@ -13,7 +13,7 @@ namespace RepeatLine
             Console.WriteLine("Введите строку");
             string line = Console.ReadLine();
 
-            Console.WriteLine("Введите сколько раз будет повторятся строка");
+            Console.WriteLine("Введите сколько раз будет повторятся эта строка");
             int count = int.Parse(Console.ReadLine());
 
             Console.WriteLine(Repeat(line, count));
